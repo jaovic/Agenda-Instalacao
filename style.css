@@ -76,9 +76,13 @@ img {
     margin-right: 20px;
     margin-bottom: 30px;
     border: 1px solid darkblue;
+<<<<<<< HEAD
     border-radius: 25px;
     box-shadow: 2px 2px 4px 0px rgb(0 0 0 / 20%);
     background-color: rgb(255, 255, 255);
+=======
+    box-shadow: 2px 2px 4px 0px rgb(0 0 0 / 20%);
+>>>>>>> fda398502363610079efd251cf0882a30f5ed394
 
 }
 .diaSemana{
@@ -112,6 +116,10 @@ img {
     align-items: center;
     justify-content: center;
     height: 120px;
+<<<<<<< HEAD
     color: white;
     background-color: black;
 }
+=======
+}
+>>>>>>> fda398502363610079efd251cf0882a30f5ed394
