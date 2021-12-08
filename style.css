@@ -1,0 +1,105 @@
+body,ul,li,p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-family: Arial;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/*/////////////////////////////// IDS /////////////////////////////////*/
+
+#logo{
+    height: 85%;
+}
+
+/*////////////////////////////// CLASSES //////////////////////////////*/
+
+.topo{
+    display: flex;
+    flex-direction: row;
+    background: #181717;
+    height: 75px;
+}
+.logo{
+    display: flex;
+
+}
+.logo a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    max-width: 70%;
+}
+.containerAgenda{
+    display: flex;
+    max-width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.containerDia{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    padding: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border: 1px solid darkblue;
+
+}
+.diaSemana{
+    margin-bottom: 15px;
+    border-bottom: 1px solid darkblue;
+}
+.periodoManha{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.periodoTarde{
+    display: flex;
+    flex-direction: column;
+}
+.horarios{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.hora{
+    border-bottom: 0.5px solid rgb(0, 0, 0);
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+}
