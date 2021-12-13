@@ -13,16 +13,10 @@ h1 {
   text-align: center;
   margin-top: 60px;
 }
-
-img {
-  max-width: 100%;
-  display: block;
-}
-
 /*/////////////////////////////// IDS /////////////////////////////////*/
 
 #logo{
-    height: 85%;
+    height: 100%;
 }
 
 /*////////////////////////////// CLASSES //////////////////////////////*/
@@ -32,15 +26,6 @@ img {
     flex-direction: row;
     background: #181717;
     height: 75px;
-}
-.logo{
-    display: flex;
-
-}
-.logo a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .main{
     display: flex;
