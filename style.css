@@ -58,6 +58,7 @@ img {
     margin-bottom: 50px;
     max-width: 70%;
     color: white;
+    text-shadow: 1px 3px 0 #969696, 1px 4px 5px #aba8a8;
 }
 .containerAgenda{
     display: flex;
@@ -110,8 +111,19 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 120px;
-    color: white;
-    background-color: black;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    background: linear-gradient(0deg,  rgb(255, 255, 255) 0%, rgb(34,193,195,1) 100%);
+}
+.contato{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.contato img{
+    height: 50px;
+    margin-right: 50px;
 }
